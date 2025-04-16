@@ -1,3 +1,4 @@
+
 import { ArrowDown } from "lucide-react";
 import { AnimatedText } from "../ui/AnimatedText";
 
@@ -23,7 +24,7 @@ export const Hero = () => {
               <span className="ml-2 inline-block animate-[wave_2.5s_ease-in-out_infinite]">👋</span>
             </div>
             <div className="animate-slide-up animate-delay-200 bg-gradient-to-r from-brand-blue via-brand-purple to-brand-coral bg-clip-text text-transparent">
-              Tecnología que libera tu potencial
+              Tecnología que libera tu tiempo
             </div>
           </h1>
           
