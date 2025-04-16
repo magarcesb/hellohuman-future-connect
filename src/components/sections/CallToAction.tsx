@@ -26,8 +26,8 @@ export const CallToAction = () => {
     // Simulate API call
     setTimeout(() => {
       toast({
-        title: "¡Gracias por unirte!",
-        description: "Te hemos enviado un correo de confirmación.",
+        title: "¡Gracias por contactarnos!",
+        description: "Nos pondremos en contacto contigo pronto.",
       });
       setEmail("");
       setIsSubmitting(false);
@@ -41,11 +41,11 @@ export const CallToAction = () => {
           <div className="grid md:grid-cols-2">
             <div className="p-8 md:p-12 flex flex-col justify-center">
               <h2 className="text-3xl font-medium mb-4">
-                <AnimatedText text="Únete a la comunidad" className="inline-block" />
+                <AnimatedText text="Conversemos" className="inline-block" />
               </h2>
               <p className="text-lg text-gray-600 mb-6">
                 <AnimatedText 
-                  text="Sé parte de un futuro donde la tecnología potencie nuestra humanidad."
+                  text="¿Quieres liberar el potencial humano con tecnología? Únete a nuestra comunidad."
                   className="inline-block" 
                 />
               </p>
@@ -77,7 +77,7 @@ export const CallToAction = () => {
                     </>
                   ) : (
                     <>
-                      <span>Explorar el futuro</span>
+                      <span>Únete a la comunidad tecnológica</span>
                       <Send size={18} />
                     </>
                   )}
@@ -85,7 +85,7 @@ export const CallToAction = () => {
               </form>
               
               <p className="mt-4 text-sm text-gray-500">
-                Al unirte, aceptas recibir correos sobre nuestras actividades. Puedes darte de baja en cualquier momento.
+                Al unirte, aceptas recibir correos sobre nuestras soluciones tecnológicas y novedades. Puedes darte de baja en cualquier momento.
               </p>
             </div>
             
@@ -96,7 +96,7 @@ export const CallToAction = () => {
                     <ArrowRight className="text-white" size={32} />
                   </div>
                   <p className="text-xl font-medium">
-                    El futuro se construye juntos
+                    Tecnología que trabaja para ti
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export const CallToAction = () => {
         
         <div className="mt-16 text-center">
           <p className="text-gray-500">
-            &copy; {new Date().getFullYear()} HelloHuman. El futuro es Humano.
+            &copy; {new Date().getFullYear()} HelloHuman. Tecnología al servicio del humano.
           </p>
         </div>
       </div>

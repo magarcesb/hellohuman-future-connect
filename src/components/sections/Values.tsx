@@ -39,7 +39,7 @@ export const Values = () => {
             </div>
             <h3 className="text-xl font-medium mb-3">Tecnología consciente</h3>
             <p className="text-gray-300">
-              Diseñamos y promovemos tecnología que amplifica nuestras capacidades de manera ética.
+              Diseñamos soluciones que automatizan lo repetitivo para liberar el potencial humano.
             </p>
           </div>
           
@@ -49,7 +49,7 @@ export const Values = () => {
             </div>
             <h3 className="text-xl font-medium mb-3">Conexión</h3>
             <p className="text-gray-300">
-              Creemos en el poder de las conexiones genuinas, tanto entre humanos como con la tecnología.
+              Creamos soluciones que mejoran las conexiones humanas en lugar de reemplazarlas.
             </p>
           </div>
           
@@ -59,7 +59,7 @@ export const Values = () => {
             </div>
             <h3 className="text-xl font-medium mb-3">Transparencia</h3>
             <p className="text-gray-300">
-              Fomentamos la claridad y la honestidad en todo lo que hacemos y en las tecnologías que respaldamos.
+              Trabajamos con claridad en nuestros procesos y en cómo nuestras soluciones impactan a las personas.
             </p>
           </div>
         </div>

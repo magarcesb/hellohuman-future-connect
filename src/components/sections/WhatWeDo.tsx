@@ -16,9 +16,8 @@ export const WhatWeDo = () => {
             </h2>
             <p className="text-xl text-gray-600 mb-8">
               <AnimatedText 
-                text="Exploramos la intersección entre lo humano y la tecnología
-                      a través de contenido, comunidades y experiencias diseñadas
-                      para un futuro más empático."
+                text="Con nuestro equipo desarrollamos soluciones tecnológicas al servicio
+                      del ser humano, liberando tiempo y potencial para lo que realmente importa."
                 className="inline-block"
               />
             </p>
@@ -29,9 +28,9 @@ export const WhatWeDo = () => {
                   <BookOpen className="text-brand-blue" size={20} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-1">Contenido con propósito</h3>
+                  <h3 className="text-lg font-medium mb-1">Automatización de procesos</h3>
                   <p className="text-gray-600">
-                    Artículos, podcasts y recursos sobre la relación entre tecnología, bienestar y humanidad.
+                    Identificamos y automatizamos procesos repetitivos que consumen tiempo valioso de las personas.
                   </p>
                 </div>
               </div>
@@ -41,9 +40,9 @@ export const WhatWeDo = () => {
                   <MessageCircle className="text-brand-purple" size={20} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-1">Comunidad consciente</h3>
+                  <h3 className="text-lg font-medium mb-1">Desarrollo a medida</h3>
                   <p className="text-gray-600">
-                    Un espacio seguro para compartir experiencias, ideas y preguntas sobre el papel de la tecnología en nuestras vidas.
+                    Creamos software personalizado que resuelve necesidades específicas de nuestros clientes.
                   </p>
                 </div>
               </div>
@@ -53,9 +52,9 @@ export const WhatWeDo = () => {
                   <Monitor className="text-brand-coral" size={20} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-1">Experiencias digitales</h3>
+                  <h3 className="text-lg font-medium mb-1">Inteligencia artificial aplicada</h3>
                   <p className="text-gray-600">
-                    Talleres, eventos y experiencias interactivas que exploran el futuro de la interacción humano-tecnología.
+                    Implementamos soluciones de IA que potencian las capacidades humanas en lugar de reemplazarlas.
                   </p>
                 </div>
               </div>
@@ -65,9 +64,9 @@ export const WhatWeDo = () => {
                   <Shield className="text-gray-700" size={20} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-1">Ética tecnológica</h3>
+                  <h3 className="text-lg font-medium mb-1">Consultoría tecnológica</h3>
                   <p className="text-gray-600">
-                    Promovemos prácticas y principios para un desarrollo tecnológico centrado en lo humano.
+                    Asesoramos a organizaciones sobre cómo implementar tecnología que realmente libere el potencial humano.
                   </p>
                 </div>
               </div>
@@ -79,7 +78,7 @@ export const WhatWeDo = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/30 to-brand-purple/30 mix-blend-overlay"></div>
               <img 
                 src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
-                alt="Personas conectadas con tecnología" 
+                alt="Tecnología al servicio del humano" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -91,7 +90,7 @@ export const WhatWeDo = () => {
                 <div className="h-3 w-3 rounded-full bg-brand-purple"></div>
               </div>
               <p className="text-sm font-medium">
-                "La tecnología más poderosa es aquella que nos hace más humanos."
+                "La tecnología más potente es la que libera nuestro tiempo para ser más humanos."
               </p>
             </div>
           </div>

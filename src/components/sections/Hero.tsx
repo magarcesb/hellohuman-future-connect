@@ -14,7 +14,7 @@ export const Hero = () => {
           <div className="mb-6 animate-fade-in">
             <span className="inline-flex items-center space-x-1 bg-gray-100 rounded-full px-4 py-1.5 text-sm font-medium">
               <span className="h-2 w-2 rounded-full bg-brand-blue"></span>
-              <span>El futuro es Humano</span>
+              <span>Tecnología al servicio del humano</span>
             </span>
           </div>
           
@@ -24,14 +24,13 @@ export const Hero = () => {
               <span className="ml-2 inline-block animate-[wave_2.5s_ease-in-out_infinite]">👋</span>
             </div>
             <div className="animate-slide-up animate-delay-200 bg-gradient-to-r from-brand-blue via-brand-purple to-brand-coral bg-clip-text text-transparent">
-              Donde la tecnología y lo humano se encuentran
+              Tecnología que libera tu potencial
             </div>
           </h1>
           
           <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto animate-slide-up animate-delay-400">
-            Reimaginamos la manera en que interactuamos con la tecnología, 
-            poniendo lo humano en el centro. Porque creemos que el futuro 
-            necesita más empatía.
+            Desarrollamos soluciones tecnológicas innovadoras que automatizan 
+            tareas repetitivas, liberando tu tiempo para lo que realmente importa.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-slide-up animate-delay-600">
@@ -39,7 +38,7 @@ export const Hero = () => {
               href="#join"
               className="px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors text-lg w-full sm:w-auto"
             >
-              Únete a la comunidad
+              Únete a la comunidad tecnológica
             </a>
             <a
               href="#what-we-do"
