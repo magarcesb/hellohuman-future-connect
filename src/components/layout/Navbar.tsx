@@ -45,7 +45,7 @@ export const Navbar = () => {
             href="#join"
             className="px-5 py-2.5 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
           >
-            Únete
+            Conversemos
           </a>
         </div>
 
@@ -89,7 +89,7 @@ export const Navbar = () => {
               className="w-full py-2.5 bg-black text-white rounded-full text-center hover:bg-gray-800 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Únete
+              Conversemos
             </a>
           </div>
         </div>
