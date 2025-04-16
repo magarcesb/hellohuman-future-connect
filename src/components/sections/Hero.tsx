@@ -1,4 +1,3 @@
-
 import { ArrowDown } from "lucide-react";
 import { AnimatedText } from "../ui/AnimatedText";
 
@@ -38,7 +37,7 @@ export const Hero = () => {
               href="#join"
               className="px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors text-lg w-full sm:w-auto"
             >
-              Únete a la comunidad tecnológica
+              Conversemos
             </a>
             <a
               href="#what-we-do"
