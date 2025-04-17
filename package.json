@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anonimeishon.github.io/hellohuman-future-connect",
+  "homepage": "https://magarcesb.github.io/hellohuman-future-connect",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
