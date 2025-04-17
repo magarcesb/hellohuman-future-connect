@@ -28,11 +28,6 @@ export const Hero = () => {
             </div>
           </h1>
           
-          <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto animate-slide-up animate-delay-400">
-            Desarrollamos soluciones tecnológicas innovadoras que automatizan 
-            tareas repetitivas, liberando tu tiempo para lo que realmente importa.
-          </p>
-          
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-slide-up animate-delay-600">
             <a
               href="#join"
@@ -53,3 +48,4 @@ export const Hero = () => {
     </section>
   );
 };
+
