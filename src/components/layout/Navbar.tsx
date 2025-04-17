@@ -32,14 +32,17 @@ export const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10">
-          <a href="#mission" className="text-gray-800 hover:text-brand-blue transition-colors">
-            Misión
+          <a href="#what-we-offer" className="text-gray-800 hover:text-brand-blue transition-colors">
+            Qué ofrecemos
           </a>
-          <a href="#what-we-do" className="text-gray-800 hover:text-brand-blue transition-colors">
-            Qué hacemos
+          <a href="#development" className="text-gray-800 hover:text-brand-blue transition-colors">
+            Desarrollo
           </a>
-          <a href="#values" className="text-gray-800 hover:text-brand-blue transition-colors">
-            Valores
+          <a href="#consulting" className="text-gray-800 hover:text-brand-blue transition-colors">
+            Asesorías
+          </a>
+          <a href="#team" className="text-gray-800 hover:text-brand-blue transition-colors">
+            Quiénes somos
           </a>
           <a
             href="#join"
@@ -64,25 +67,32 @@ export const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg py-4">
           <div className="container mx-auto px-6 flex flex-col space-y-4">
             <a
-              href="#mission"
+              href="#what-we-offer"
               className="py-2 text-gray-800 hover:text-brand-blue transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Misión
+              Qué ofrecemos
             </a>
             <a
-              href="#what-we-do"
+              href="#development"
               className="py-2 text-gray-800 hover:text-brand-blue transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Qué hacemos
+              Desarrollo
             </a>
             <a
-              href="#values"
+              href="#consulting"
               className="py-2 text-gray-800 hover:text-brand-blue transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Valores
+              Asesorías
+            </a>
+            <a
+              href="#team"
+              className="py-2 text-gray-800 hover:text-brand-blue transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Quiénes somos
             </a>
             <a
               href="#join"
