@@ -32,9 +32,6 @@ export const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10">
-          <a href="#what-we-offer" className="text-gray-800 hover:text-brand-blue transition-colors">
-            Qué ofrecemos
-          </a>
           <a href="#development" className="text-gray-800 hover:text-brand-blue transition-colors">
             Desarrollo
           </a>
@@ -66,13 +63,6 @@ export const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg py-4">
           <div className="container mx-auto px-6 flex flex-col space-y-4">
-            <a
-              href="#what-we-offer"
-              className="py-2 text-gray-800 hover:text-brand-blue transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Qué ofrecemos
-            </a>
             <a
               href="#development"
               className="py-2 text-gray-800 hover:text-brand-blue transition-colors"
