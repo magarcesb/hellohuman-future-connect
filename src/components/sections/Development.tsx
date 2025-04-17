@@ -1,5 +1,5 @@
 
-import { Code, Database, Laptop, GitBranch, Workflow } from "lucide-react";
+import { Code, Database, Laptop, GitBranch, Workflow, Shield } from "lucide-react";
 import { AnimatedText } from "../ui/AnimatedText";
 
 export const Development = () => {
@@ -28,6 +28,11 @@ export const Development = () => {
       icon: <GitBranch className="text-black" size={24} />,
       title: "GitHub",
       description: "Gestión de código fuente y colaboración eficiente que agiliza el desarrollo y mantiene la calidad."
+    },
+    {
+      icon: <Shield className="text-red-500" size={24} />,
+      title: "Ciberseguridad",
+      description: "Protección integral contra amenazas digitales, implementando soluciones robustas para salvaguardar tu información."
     }
   ];
 
