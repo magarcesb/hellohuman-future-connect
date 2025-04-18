@@ -1,5 +1,5 @@
 
-import { Code, Database, Laptop, GitBranch, Workflow, Shield } from "lucide-react";
+import { Code, Database, Laptop, GitBranch, Brain, Shield } from "lucide-react";
 import { AnimatedText } from "../ui/AnimatedText";
 
 export const Development = () => {
@@ -20,9 +20,9 @@ export const Development = () => {
       description: "Soluciones tecnológicas completas que incluyen tanto el frontend como el backend de tu aplicación."
     },
     {
-      icon: <Workflow className="text-gray-700" size={24} />,
-      title: "CI/CD",
-      description: "Integración y despliegue continuos que aseguran la calidad y eficiencia en el desarrollo de tu producto."
+      icon: <Brain className="text-gray-700" size={24} />,
+      title: "Inteligencia Artificial",
+      description: "Soluciones avanzadas de IA que potencian la eficiencia y automatización de procesos empresariales."
     },
     {
       icon: <GitBranch className="text-black" size={24} />,
