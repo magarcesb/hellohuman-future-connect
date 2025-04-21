@@ -64,6 +64,20 @@ export const Consulting = () => {
                   </div>
                 </li>
               </ul>
+
+              {/* Nueva subsección para Asesorías remote work */}
+              <div className="mt-12 border-t pt-8">
+                <div className="mb-4 flex items-center space-x-4">
+                  <div className="bg-white p-4 rounded-full w-16 h-16 flex items-center justify-center shadow-sm">
+                    <Lightbulb className="text-brand-blue" size={24} />
+                  </div>
+                  <h3 className="text-2xl font-medium">Asesorías remote work</h3>
+                </div>
+                <p className="text-gray-600">
+                  Te asesoramos para que tu empresa ocupe las mejores herramientas digitales para poder trabajar remoto, pasar a formas de trabajo semi presencial, pero siempre conectado, nunca perder los objetivos y con todos tus documentos respaldados.
+                </p>
+              </div>
+              {/* Fin nueva subsección */}
             </div>
           </div>
         </div>
