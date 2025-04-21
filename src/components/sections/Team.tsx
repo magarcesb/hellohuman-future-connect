@@ -25,6 +25,17 @@ export const Team = () => {
         github: "#",
         email: "mailto:humano2@example.com"
       }
+    },
+    {
+      name: "Humano 3",
+      role: "COO",
+      bio: "Comprometido con la excelencia operativa y la gestión eficiente.",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      social: {
+        linkedin: "#",
+        github: "#",
+        email: "mailto:humano3@example.com"
+      }
     }
   ];
 
@@ -46,7 +57,7 @@ export const Team = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
           {team.map((member, index) => (
             <div key={index} className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
               <div className="aspect-[3/4] relative overflow-hidden">
