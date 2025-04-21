@@ -44,7 +44,7 @@ export const Development = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-medium mb-6">
-            <AnimatedText text="Desarrollo APP y WEB" className="inline-block" />
+            <AnimatedText text="Creamos tu aplicación de principio a fin: diseño, desarrollo y tecnología que funciona." className="inline-block" />
           </h2>
           <p className="text-xl text-gray-600">
             <AnimatedText
@@ -71,3 +71,4 @@ export const Development = () => {
     </section>
   );
 };
+
