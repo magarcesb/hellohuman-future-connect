@@ -8,7 +8,7 @@ export const Team = () => {
       name: "Humano 1",
       role: "Fundador & CEO",
       bio: "Apasionado por crear tecnología que libere el potencial humano.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80", // hombre en camisa de cuadros
       social: {
         linkedin: "#",
         github: "#",
@@ -16,21 +16,21 @@ export const Team = () => {
       }
     },
     {
-      name: "Humano 2",
+      name: "Humana 2",
       role: "CTO",
       bio: "Especialista en diseñar soluciones tecnológicas centradas en el usuario.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80", // mujer con camisa blanca usando laptop
       social: {
         linkedin: "#",
         github: "#",
-        email: "mailto:humano2@example.com"
+        email: "mailto:humana2@example.com"
       }
     },
     {
       name: "Humano 3",
       role: "COO",
       bio: "Comprometido con la excelencia operativa y la gestión eficiente.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80", // persona con MacBook Pro (hombre)
       social: {
         linkedin: "#",
         github: "#",
@@ -92,3 +92,4 @@ export const Team = () => {
     </section>
   );
 };
+
